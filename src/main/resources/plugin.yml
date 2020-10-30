@@ -1,0 +1,15 @@
+name: RedstoneLimit
+main: me.QuantumDev.RedstoneLimit.RedstoneLimit
+version: 1.0
+api-version: 1.16
+load: STARTUP
+author: zQuantumDev
+
+commands:
+  redstonelimit:
+    aliases: ["redstone", "rlimit"]
+
+permissions:
+  redstonelimit.admin:
+    default: op
+
